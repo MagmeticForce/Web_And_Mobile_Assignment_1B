@@ -149,4 +149,59 @@
                 </div>
             </header>
         </section>
+
+        <!-- Form section -->
+        <section id="register" class="section-container">
+            <div class="form-wrappper">
+                <header class="section-header">
+                    <h3 class="section-title">
+                        Deploy Free Cluster
+                    </h3>
+                    <p class="section-subtitle">
+                        Get started by filling out the fields below.
+                    </p>
+                </header>
+                <form action="#" method="post" class="lead-form">
+                    <div class="form-group">
+                        <label for="work-email" class="form-label">
+                            Work Email
+                            <span class="required-mark">*</span>
+                        </label>
+                        <input type="email" name="work-email" id="work-email" class="form-control" placeholder="xyz@abc.com" required></input>
+                    </div>
+                    <div class="form-group">
+                        <label for="node-count" class="form-label">
+                            Node Count
+                            <span class="required-mark">*</span>
+                        </label>
+                        <input type="number" name="node-count" id="node-count" class="form-control" min="1" max="5000000" step="10" placeholder="100" required></input>
+                        <span class="input-hint">Minimum: 1. Maximum: 5,000,000</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="throughput-requirement" class="form-label">
+                            Throughput Requirement (Mbps)
+                            <span class="required-mark">*</span>
+                        </label>
+                        <input type="number" name="throughput-requirement" id="throughput-requirement" class="form-control" min="1" max="5000000" step="10" placeholder="100" required></input>
+                        <span class="input-hint">Minimum: 1. Maximum: 5,000,000</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="business-tier" class="form-label">
+                            Target Tier Selection
+                            <span class="required-mark">*</span>
+                        </label>
+                        <select name="business-tier" id="business-tier" class="form-control">
+                            <option value="developer">Developer ($5 Monthly Fee)</option>
+                            <option value="pro cluster">Pro Cluster ($20 Monthly Fee)</option>
+                            <option value="enterprise-dedicated">Enterprise Dedicated (Contact)</option>
+                        </select>
+                        <div>
+                            <button type="submit" class="button-primary button-block button-large">
+                            Receive API Sandbox Provisioning Details
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
