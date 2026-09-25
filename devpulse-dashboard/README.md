@@ -33,105 +33,105 @@
 
 
 ## Section 3: Semantic Component & Layout Tree
-Body
-  Header
-    a (brand logo)
-    nav
-      a (features link)
-      a (pricing matrix)
-      a (form)
-      a (“Deploy Free Cluster” CTA)
-  Main
-    section (hero)
-      Header
-        h1
-        p (subtitle)
-      Div
-        p (body text)
-        a (“Deploy Free Cluster” CTA)
-    section (features)
-      Header
-        h2
-        p
-      div
-        article (Latency Tracking)
-          h3 
-          ul
-            li
-            li
-            li
-        article (Log Aggregation)
-          h3
-          ul
-            li
-            li
-            li
-      article (Enterprise Dedicated)
-        h3
-        ul
-          li
-          li
-          li
-    section (pricing tiers)
-      Header
-        h2
-        p
-      div
-        article (Developer tier card)
-          h3
-          p
-          ul
-            li
-            li
-            li
-          a
-        article (Pro Cluster card)
-          div (“Most popular” tag)
-          h3
-          p
-          ul
-            li
-            li
-            li
-          a
-        article (Enterprise Dedicated card)
-          h3
-          p
-          ul
-            li
-            li
-            li
-          a
-    section (form)
-      Div (form wrapper)
-        header
-          h3
-          p
-        form
-          div
-            label
-              span (required mark)
-            input (type=”email”, required)
-          div
-            label
-              span (required mark)
-            input (type=”number”, min, max, step, required)
-            span (hint for numeric limits)
-          div
-            label
-              span (required mark)
-            select (required)
-              option
-            option
-            option
-          div        
-            button
-  Footer
-    a (brand logo)
-    p (copyright)
-    nav
-      a (back to top)
-      a (features)
-      a (pricing matrix)
-      a (“Deploy Free Cluster” CTA)
+* Body
+  * Header
+    * a (brand logo)
+    * nav
+      * a (features link)
+      * a (pricing matrix)
+      * a (form)
+      * a (“Deploy Free Cluster” CTA)
+  * Main
+    * section (hero)
+      * Header
+        * h1
+        * p (subtitle)
+      * Div
+        * p (body text)
+        * a (“Deploy Free Cluster” CTA)
+    * section (features)
+      * Header
+        * h2
+        * p
+      * div
+        * article (Latency Tracking)
+          * h3 
+          * ul
+            * li
+            * li
+            * li
+        * article (Log Aggregation)
+          * h3
+          * ul
+            * li
+            * li
+            * li
+      * article (Enterprise Dedicated)
+        * h3
+        * ul
+          * li
+          * li
+          * li
+    * section (pricing tiers)
+      * Header
+        * h2
+        * p
+      * div
+       * article (Developer tier card)
+          * h3
+          * p
+          * ul
+            * li
+            * li
+            * li
+          * a
+        * article (Pro Cluster card)
+          * div (“Most popular” tag)
+          * h3
+          * p
+          * ul
+            * li
+            * li
+            * li
+          * a
+         * article (Enterprise Dedicated card)
+         * h3
+         * p
+         * ul
+          * li
+          * li
+          * li
+         * a
+    * section (form)
+      * Div (form wrapper)
+        * header
+          * h3
+          * p
+        * form
+          * div
+            * label
+              * span (required mark)
+            * input (type=”email”, required)
+          * div
+            * label
+              * span (required mark)
+            * input (type=”number”, min, max, step, required)
+            * span (hint for numeric limits)
+          * div
+            * label
+              * span (required mark)
+            * select (required)
+             * option
+             * option
+             * option
+          * div        
+            * button
+  * Footer
+    * a (brand logo)
+    * p (copyright)
+    * nav
+      * a (back to top)
+      * a (features)
+      * a (pricing matrix)
+      * a (“Deploy Free Cluster” CTA)
 
